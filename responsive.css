@@ -1,0 +1,254 @@
+/* Base styles remain unchanged */
+
+/* Styles for screens smaller than 1260px */
+@media (max-width: 1260px) {
+    .aboutus {
+        flex-direction: column;
+    }
+
+    .aboutus h2 {
+        position: absolute;
+        font-size: 3rem;
+        font-weight: 530;
+        top: 25rem;
+        left: 5rem;
+        color: white;
+    }
+
+    .about-right {
+        width: 95vw;
+    }
+
+    .aboutus p {
+        margin: auto;
+        font-size: 1rem;
+        color: white;
+        width: 92%;
+    }
+
+    .aboutus button {
+        margin-left: 2rem;
+    }
+}
+
+/* Styles for screens smaller than 1200px */
+@media (max-width: 1200px) {
+    .skills-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    video {
+        position: fixed;
+        background-position: center;
+        background-size: max(1000px, 100vw);
+        filter: brightness(30%);
+        height: 100%;
+        width: 100%;
+        top: 5rem;
+    }
+
+    .heading {
+        font-size: 2.5rem;
+    }
+
+    .review-box {
+        min-width: 45%;
+    }
+}
+
+/* Styles for screens smaller than 800px */
+@media (max-width: 800px) {
+    .logos {
+        height: 2.6rem;
+    }
+
+    .aboutus h2 {
+        left: 4rem;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #210939;
+        width: 100%;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-bar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-bar ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .portfolio-images {
+        flex-direction: column;
+    }
+
+    .skills-section {
+        grid-template-columns: 1fr;
+    }
+
+    .about-right {
+        width: 100%;
+    }
+
+    .about-left {
+        border-radius: 500px;
+        width: 50%;
+    }
+
+    .hello {
+        font-size: 1.5rem;
+    }
+
+    .name {
+        font-size: 3rem;
+    }
+
+    .array,
+    .array1 {
+        font-size: 1.2rem;
+    }
+
+    .footer p,
+    h4 {
+        font-size: 0.8rem;
+    }
+}
+
+/* Styles for screens smaller than 500px */
+@media (max-width: 500px) {
+    .name {
+        font-size: 2rem;
+    }
+    .review-container{
+        width: 95vw;
+    }
+
+    .background {
+        display: flex;
+        width: 90vw;
+        margin: auto;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        height: 40rem;
+        position: relative;
+    }
+
+    .aboutus h2 {
+        left: 3rem;
+        top: 26rem;
+        font-size: 1.9rem;
+    }
+
+    .about p {
+        font-size: 0.7rem;
+    }
+
+    .logos {
+        height: 2rem;
+    }
+
+    .logo {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .contactbtn {
+        font-size: 10px;
+        padding: 10px 20px;
+    }
+
+    .formcontainer,
+    .contact-section {
+        padding: 15px;
+    }
+
+    .submitbtn {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .heading {
+        font-size: 2rem;
+    }
+
+    .about-left img {
+        width: 100%;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-left,
+    .footer-right {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .footer-center p {
+        font-size: 0.8rem;
+    }
+
+    video {
+        position: fixed;
+        background-position: center;
+        background-size: max(100px, 100vh);
+        filter: brightness(30%);
+        height: 57%;
+        width: 100%;
+    }
+}
+
+/* Styles for screens smaller than 300px */
+@media (max-width: 300px) {
+    .hello {
+        font-size: 1.2rem;
+    }
+
+    .name {
+        font-size: 2rem;
+    }
+
+    .contact-section h2,
+    .aboutus h2 {
+        font-size: 1.5rem;
+    }
+
+    .review-box {
+        min-width: 80%;
+    }
+
+    .nav-bar1 {
+        font-size: 14px;
+    }
+
+    .submitbtn {
+        font-size: 12px;
+    }
+
+    .skill-box h3 {
+        font-size: 1.2rem;
+    }
+
+    .skill-box p {
+        font-size: 0.9rem;
+    }
+}
